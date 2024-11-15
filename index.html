@@ -1,0 +1,127 @@
+<html>
+ <head>
+  <title>
+   Welcome to My Page
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="arlin.jpeg" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #ff4081;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .nav {
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .nav a.active {
+            color: #ff4081;
+            border-bottom: 2px solid #ff4081;
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .text {
+            max-width: 50%;
+        }
+        .text h1 {
+            font-family: 'Montserrat', sans-serif;
+            color: #ff4081;
+            font-size: 48px;
+            margin: 0;
+        }
+        .text p {
+            font-size: 16px;
+            color: #333;
+        }
+        .image {
+            position: relative;
+        }
+        .image img {
+            width: 300px;
+        }
+        .image .floating-objects {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .floating-objects img {
+            position: absolute;
+        }
+        .floating-objects .obj1 {
+            top: 10%;
+            left: 10%;
+            width: 30px;
+        }
+        .floating-objects .obj2 {
+            bottom: 10%;
+            right: 10%;
+            width: 50px;
+        }
+        .floating-objects .obj3 {
+            top: 50%;
+            right: 50%;
+            width: 20px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="nav">
+    <a class="active" href="#">
+     Home
+    </a>
+    <a href="#">
+     Profile
+    </a>
+    <a href="#">
+     About
+    </a>
+   </div>
+   <div class="content">
+    <div class="text">
+     <h1>
+      WELCOME TO MY PAGE
+     </h1>
+     <p>
+      Hi, I'm Nur arlin hidayah, I'm a mahasiswa D3 computer Universitas papua :)
+     </p>
+    </div>
+    <div class="image">
+     <img alt="3D welcome sign with a character pointing and geometric shapes" height="300" src="https://storage.googleapis.com/a1aa/image/S65DXSpkgVLeZCuc4mfjuct5gW4nFect3Su44rJRa08XgiinA.jpg" width="300"/>
+     <div class="floating-objects">
+      <img alt="Small floating geometric shape" class="obj1" height="30" src="https://storage.googleapis.com/a1aa/image/62t2Bkf2WPX7HSHO1ybomZiuaOw6VmJRJ8hQ7rAuYZYFoo4JA.jpg" width="30"/>
+      <img alt="Medium floating geometric shape" class="obj2" height="50" src="https://storage.googleapis.com/a1aa/image/m3FxSbWsYCLQN5Rk17GKzZFKOjkYYdHO2pJJoOaMpmKCUU8E.jpg" width="50"/>
+      <img alt="Tiny floating geometric shape" class="obj3" height="20" src="https://storage.googleapis.com/a1aa/image/kOYB2x8H8oZfPiHXyZfMiqClEHSuv8avmVsJfTAYDNIYgiinA.jpg" width="20"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
